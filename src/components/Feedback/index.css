@@ -1,0 +1,68 @@
+/* Write your CSS code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+}
+.customer-support {
+  width: 60%;
+  height: 60vh;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.emoji-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.heading {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.emoji-button {
+  border: none;
+  margin: 20px;
+  background-color: transparent;
+}
+.emoji-image {
+  width: 50%;
+}
+.emoji-name {
+  color: #1e293b;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.love-emoji {
+  width: 10%;
+}
+.thank-you {
+  color: #0f172a;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thank-you-para {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
